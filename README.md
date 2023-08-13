@@ -9,7 +9,7 @@ This project is the frontend part of a task management application, built with V
 ## Installation Instructions
 
 1. Clone this repository to your local machine.
-2. Navigate to the project directory: `cd path/to/your/frontend/project`
+2. Navigate to the project directory: `cd TasksManagerClient`
 3. Install dependencies: `npm install`
 4. Start the application: `npm run serve`
 
