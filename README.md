@@ -23,6 +23,12 @@ The application should now be accessible at http://localhost:8080 in your browse
 - User authentication using JWT for secure access.
 - User-friendly interface with Tailwind CSS.
 
+![Screenshot 1](screenshots/1.png)
+![Screenshot 2](screenshots/2.png)
+![Screenshot 3](screenshots/3.png)
+![Screenshot 4](screenshots/4.png)
+
+
 ## Complete Documentation
 
 To learn more about the features and usage of the frontend application, please refer to the [complete documentation](link/to/your/documentation).
