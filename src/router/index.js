@@ -1,20 +1,29 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
+import Login from '../views/authentification/Login.vue';
+import Register from '../views/authentification/Register.vue';
+import TaskManager from '../components/TaskManager.vue';
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    redirect: '/login', // Redirection vers la page de connexion
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+    path: '/login',
+    name: 'Login',
+    component: Login,
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register,
+  },
+  {
+    path: '/tasks',
+    name: 'TaskManager',
+    component: TaskManager,
+    meta: { requiresAuth: true }, // Marque la route nécessitant une authentification
+  },
 ]
 
 const router = createRouter({

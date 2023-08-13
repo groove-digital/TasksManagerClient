@@ -1,0 +1,61 @@
+/* assets/css/app.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Votre style personnalisé */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f0f4f8;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  padding: 0.5rem;
+  
+}
+
+.btn {
+  background-color: #3490dc;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2779bd;
+}
+
+.error-msg {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #718096;
+}
+
+.footer a {
+  color: #718096;
+  text-decoration: underline;
+}
+
+.form-spacing input {
+    margin-bottom: 0.5rem;
+  }
