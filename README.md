@@ -19,7 +19,8 @@ The application should now be accessible at http://localhost:8080 in your browse
 
 - Vue.js for building the user interface.
 - Integration with the backend API to manage tasks.
-- Adding, editing, deleting, and marking tasks as completed.
+- Adding, editing, deleting, updating, and marking tasks as completed.
+- User authentication using JWT for secure access.
 - User-friendly interface with Tailwind CSS.
 
 ## Complete Documentation
